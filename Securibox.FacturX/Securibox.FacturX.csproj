@@ -1,9 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>SmeUp_FacturX</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Securibox_Smeup</Authors>
+    <Description>Pacchetto per la decodifica del formato FacturX.</Description>
+    <RepositoryUrl>https://github.com/danismeup/facturx</RepositoryUrl>
+    <IsPackable>true</IsPackable> 
   </PropertyGroup>
 
   <ItemGroup>
